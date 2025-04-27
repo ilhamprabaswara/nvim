@@ -1,5 +1,5 @@
 {
-  "coc.nvim": { "branch": "release", "commit": "c6cd3ed431a2fb4367971229198f1f1e40257bce" },
+  "coc.nvim": { "branch": "release", "commit": "3c8d5fa4fd8f4360aa6af949775fc9a26880e2b3" },
   "ctrlp.vim": { "branch": "master", "commit": "475a864e7f01dfc5c93965778417cc66e77f3dcc" },
   "indent-blankline.nvim": { "branch": "master", "commit": "005b56001b2cb30bfa61b7986bc50657816ba4ba" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },

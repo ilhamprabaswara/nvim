@@ -21,24 +21,7 @@ return {
 			keyset("n", "<F2>", "<Plug>(coc-rename)", { silent = true, nowait = true  })
 		end,
 	},
-	{ 
-		"preservim/nerdtree",
-		config = function()
-			local keyset = vim.keymap.set
-			
-			keyset('n', '<C-t>', ':NERDTreeToggle<CR>', { noremap = true, silent = true })
-		end,
-	},
-  { 
-		"tsony-tsonev/nerdtree-git-plugin",
-		init = function()
-			vim.g.NERDTreeGitStatusWithFlags = 1
-		end,
-  },
-  "tiagofumo/vim-nerdtree-syntax-highlight",
   "airblade/vim-gitgutter",
-  "ctrlpvim/ctrlp.vim",
-  "preservim/nerdcommenter",
 	{
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
